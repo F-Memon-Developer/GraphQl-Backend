@@ -10,7 +10,7 @@ const app = express();
 app.use(cors());
 
 mongoose.connect(
-  'mongodb+srv://memon2572006f_db_user:test123@gql-memon.pkbugir.mongodb.net/gql-memon?retryWrites=true&w=majority&tls=true',
+  'mongodb+srv:(use your credentials)retryWrites=true&w=majority&tls=true',
   {
     useNewUrlParser: true,
     useUnifiedTopology: true
